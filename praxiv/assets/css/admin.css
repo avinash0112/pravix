@@ -1,0 +1,25 @@
+#praxiv-table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+#praxiv-table td input[type="number"]{
+    max-width: 100%;
+}
+#praxiv-table td, #praxiv-table th {
+    border: 1px solid;
+    padding: 5px;
+}
+.text-center{
+    text-align: center;
+}
+.display-none{
+    display: none !important;
+}
+.color-red{
+    color:#ca4a1f;
+}
+.praxiv-remove{
+    cursor: pointer;
+}
